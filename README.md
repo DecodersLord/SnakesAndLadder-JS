@@ -19,8 +19,8 @@ The game uses several modules:
 
 The powerManager object uses two other objects, ladderObject and snakeObject, each representing a ladder and a snake respectively. Both objects have the following methods:
 
-- `setPower(pos)`: This method sets the end position of a ladder or snake at a given position on the game board.
-- `givePower(pos)`: This method returns the end position of a ladder or snake at a given position on the game board.
+   - `setPower(pos)`: This method sets the end position of a ladder or snake at a given position on the game board.
+   - `givePower(pos)`: This method returns the end position of a ladder or snake at a given position on the game board.
 
 - `state.js`: This module maintains the state of the game.
 
@@ -39,7 +39,7 @@ The powerManager object uses two other objects, ladderObject and snakeObject, ea
 To run the game, use Node.js to execute the main script:
 
 ```bash
-node main.js
+node game.js
 ```
 
 Enjoy playing! 🎲
