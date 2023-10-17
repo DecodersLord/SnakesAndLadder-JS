@@ -13,6 +13,7 @@ The game uses several modules:
 - `gameBoard.js`: This module initializes and displays the game board.
 - `dice.js`: This module simulates rolling a dice.
 - `config.js`: This module contains configuration for the game such as the number of rows and columns in the game board.
+- `state.js`: This module maintains the state of the cell.
 - `powerManager.js`: This module manages the power-ups (snakes and ladders) encountered by players on the game board. It decides which power-up (snake or ladder) to place at a position on the game board. If a player lands on a cell with a ladder, they climb it and their position changes accordingly. If a player lands on a cell with a snake, they slide down to its tail. The module exports the powerManager object which has the following methods:
     - `decidePower(pos)`: This method decides which power-up to place at a given position on the game board.
     - `givePower(powerUp, currPos)`: This method returns the new position of a player after they encounter a power-up.
@@ -22,7 +23,7 @@ The powerManager object uses two other objects, ladderObject and snakeObject, ea
    - `setPower(pos)`: This method sets the end position of a ladder or snake at a given position on the game board.
    - `givePower(pos)`: This method returns the end position of a ladder or snake at a given position on the game board.
 
-- `state.js`: This module maintains the state of the game.
+
 
 ## How to Play
 
