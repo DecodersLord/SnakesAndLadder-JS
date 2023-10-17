@@ -43,4 +43,4 @@ To run the game, use Node.js to execute the main script:
 node game.js
 ```
 
-Enjoy playing! 🎲
+Enjoy playing! 🎲 🐍 🪜
